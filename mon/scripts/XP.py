@@ -3,7 +3,7 @@ from mon.helpers.handlers import request, spid, port_condition
 from mon.helpers.finder import last_down_onu, table
 from mon.helpers.constants import definitions, regex_conditions
 from mon.helpers.utils import portHandler
-from mon.helpers.utils.ssh import ssh
+from mon.scripts.ssh import ssh
 
 # FUNCTION IMPORT DEFINITIONS
 db_request = request.db_request
@@ -26,15 +26,13 @@ def check_pattern(string: str):
     pattern2 = r"^0/([1-9]|1[0-5])/([0-9]|1[0-5])$"
 
     # Check if the string matches any of the patterns
-    if re.match(pattern1, string) or re.match(pattern2, string):
-        return True
-    else:
-        return False
+    return bool(re.match(pattern1, string) or re.match(pattern2, string))
 
 
 def is_valid_float(value_str: str):
     try:
         float_value = float(value_str)
+        print(float_value)
         return True
     except ValueError:
         return False
@@ -48,17 +46,16 @@ def client_ports(data):
     command("scroll 512")
 
     lst = []
-    clt = {}
 
     # ERROR HANDLERS:
     valid_float = is_valid_float(str(lookup_value.get("pwr_lim")))
 
-    if lookup_type == "VP" and lookup_value.get("port") == None:
+    if lookup_type == "VP" and lookup_value.get("port") is None:
         return {"error": True, "data": None, "message": "missing 'port' parameter"}
 
     if (
         lookup_type == "VP"
-        and lookup_value.get("port") != None
+        and lookup_value.get("port") is not None
         and not check_pattern(str(lookup_value.get("port")))
     ):
         return {
@@ -67,10 +64,10 @@ def client_ports(data):
             "message": "'port' parameter is not a valid port",
         }
 
-    if lookup_value.get("olt") == None:
+    if lookup_value.get("olt") is None:
         return {"error": True, "data": None, "message": "missing 'olt' parameter"}
 
-    if lookup_value.get("pwr_lim") != None and not is_valid_float:
+    if lookup_value.get("pwr_lim") is not None and not valid_float:
         return {
             "error": True,
             "data": None,
@@ -82,7 +79,7 @@ def client_ports(data):
     payload["lookup_value"] = lookup_value["port"] if "VP" in lookup_type else None
 
     # PWR LIMIT SCENARIO
-    pwr_monitor = bool(lookup_value.get("pwr_lim") != None)
+    pwr_monitor = bool(lookup_value.get("pwr_lim") is not None)
     pwr_limit = abs(float(lookup_value["pwr_lim"])) if pwr_monitor else None
     lst = (
         [{"fsp": payload["lookup_value"]}]

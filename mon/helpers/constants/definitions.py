@@ -10,6 +10,7 @@ endpoints = {
     "update_client": "/update-client",
     "remove_client": "/remove-client",
     "get_plans": "/get-plans",
+    "get_creds": "/get-creds",
 }
 olt_devices = {"1": "181.232.180.7", "2": "181.232.180.5", "3": "181.232.180.6"}
 rtr_devices = {
@@ -42,7 +43,6 @@ client_place_holder = {
     "vlan": None,
     "plan": None,
     "provider": None,
-    "plan_name": None,
     "temp": None,
     "pwr": None,
     "line_profile": None,
