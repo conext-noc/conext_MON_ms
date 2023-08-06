@@ -2,10 +2,7 @@ import os
 import json
 from dotenv import load_dotenv
 import requests
-from mon.helpers.constants import definitions
-
-domain = definitions.domain
-headers = definitions.headers
+from mon.helpers.definitions import domain, headers
 
 load_dotenv()
 

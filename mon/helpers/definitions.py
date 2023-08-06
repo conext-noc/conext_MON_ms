@@ -5,6 +5,8 @@ payload = {"lookup_type": None, "lookup_value": None}
 payload_add = {"data": None}
 endpoints = {
     "get_client": "/get-client",
+    "get_ports": "/get-ports",
+    "get_alarms": "/get-alarms",
     "get_clients": "/get-clients",
     "add_client": "/add-client",
     "update_client": "/update-client",

@@ -1,19 +1,13 @@
 import re
 from time import sleep
-from mon.helpers.utils.decoder import decoder, check_iter
-from mon.helpers.handlers import (
-    fail as FAIL,
-    file_formatter,
-)
-from mon.helpers.constants import regex_conditions
-
-data_to_dict = file_formatter.data_to_dict
-port_summary = regex_conditions.port_summary
-condition_port_summary = regex_conditions.condition_port_summary
-fail_checker = FAIL.fail_checker
+from mon.helpers.decoder import decoder, check_iter
+from mon.helpers.fail import fail_checker
+from mon.helpers.file_formatter import data_to_dict
+from mon.helpers.regex_conditions import condition_port_summary, port_summary
 
 
 def clients_table(comm, command, lst):
+    value = decoder(comm)
     clients = []
     for idx, lt in enumerate(lst):
         fsp = lt["fsp"]
@@ -39,29 +33,29 @@ def clients_table(comm, command, lst):
                     names_summary = data_to_dict(header, value[s:e])
                 else:
                     states_summary = data_to_dict(header, value[s:e])
-
             for status, names in zip(states_summary, names_summary):
                 if int(status["onu_id"]) == int(names["onu_id"]):
                     name = ""
                     for i in range(1, 4):
                         name += str(names[f"name{i}"]) + " "
-                    data = {
-                        "fsp": fsp,
-                        "fspi": f'{fsp}/{status["onu_id"]}',
-                        "frame": FRAME,
-                        "slot": SLOT,
-                        "port": PORT,
-                        "onu_id": status["onu_id"],
-                        "name": re.sub(" +", " ", name).replace("\n", "").strip(),
-                        "status": status["state"],
-                        "last_down_time": status["down_time"],
-                        "pwr": names["rx_tx_power"].split("/")[0],
-                        "last_down_date": status["down_date"],
-                        "last_down_cause": status["down_cause_1"],
-                        "sn": names["sn"],
-                        "device": names["device"],
-                    }
-                    clients.append(data)
+                    clients.append(
+                        {
+                            "fsp": fsp,
+                            "fspi": f'{fsp}/{status["onu_id"]}',
+                            "frame": FRAME,
+                            "slot": SLOT,
+                            "port": PORT,
+                            "onu_id": status["onu_id"],
+                            "name": re.sub(" +", " ", name).replace("\n", "").strip(),
+                            "status": status["state"],
+                            "last_down_time": status["down_time"],
+                            "pwr": names["rx_tx_power"].split("/")[0],
+                            "last_down_date": status["down_date"],
+                            "last_down_cause": status["down_cause_1"],
+                            "sn": names["sn"],
+                            "device": names["device"],
+                        }
+                    )
         else:
             continue
     return clients

@@ -1,4 +1,4 @@
-from mon.helpers.utils.decoder import check, check_iter
+from mon.helpers.decoder import check, check_iter
 
 END_FAIL = "MARLLM0"
 

@@ -435,6 +435,9 @@ disable=raw-checker-failed,
         import-outside-toplevel,
         invalid-name,
         too-many-locals,
+        consider-using-with,
+        expression-not-assigned,
+        line-too-long,
         unused-variable # remove this one
 
 # Enable the message, report, category or checker with the given id(s). You can

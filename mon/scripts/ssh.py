@@ -1,7 +1,7 @@
 from time import sleep
 import paramiko
-from mon.helpers.handlers.request import db_request
-from mon.helpers.constants.definitions import endpoints
+from mon.helpers.request import db_request
+from mon.helpers.definitions import endpoints
 
 
 def ssh(ip):
