@@ -1,0 +1,3224 @@
+{
+  "clients": [
+    {
+      "contract": "0000004190",
+      "action": "R"
+    },
+    {
+      "contract": "0000004454",
+      "action": "R"
+    },
+    {
+      "contract": "0000001303",
+      "action": "R"
+    },
+    {
+      "contract": "0000003435",
+      "action": "R"
+    },
+    {
+      "contract": "0000005868",
+      "action": "R"
+    },
+    {
+      "contract": "0000005329",
+      "action": "R"
+    },
+    {
+      "contract": "0000004673",
+      "action": "R"
+    },
+    {
+      "contract": "0000000370",
+      "action": "R"
+    },
+    {
+      "contract": "0000003142",
+      "action": "R"
+    },
+    {
+      "contract": "0000005388",
+      "action": "R"
+    },
+    {
+      "contract": "0000005546",
+      "action": "R"
+    },
+    {
+      "contract": "0000000466",
+      "action": "R"
+    },
+    {
+      "contract": "0000000637",
+      "action": "R"
+    },
+    {
+      "contract": "0000002157",
+      "action": "R"
+    },
+    {
+      "contract": "0000005500",
+      "action": "R"
+    },
+    {
+      "contract": "0000000473",
+      "action": "R"
+    },
+    {
+      "contract": "0000000514",
+      "action": "R"
+    },
+    {
+      "contract": "0000001596",
+      "action": "R"
+    },
+    {
+      "contract": "0000001254",
+      "action": "R"
+    },
+    {
+      "contract": "0000001338",
+      "action": "R"
+    },
+    {
+      "contract": "0000003321",
+      "action": "R"
+    },
+    {
+      "contract": "0000004876",
+      "action": "R"
+    },
+    {
+      "contract": "0000004995",
+      "action": "R"
+    },
+    {
+      "contract": "0000002476",
+      "action": "R"
+    },
+    {
+      "contract": "0000005522",
+      "action": "R"
+    },
+    {
+      "contract": "0000005519",
+      "action": "R"
+    },
+    {
+      "contract": "0000004188",
+      "action": "R"
+    },
+    {
+      "contract": "0000005561",
+      "action": "R"
+    },
+    {
+      "contract": "0000004206",
+      "action": "R"
+    },
+    {
+      "contract": "0000003251",
+      "action": "R"
+    },
+    {
+      "contract": "0000000078",
+      "action": "R"
+    },
+    {
+      "contract": "0000004229",
+      "action": "R"
+    },
+    {
+      "contract": "0000004799",
+      "action": "R"
+    },
+    {
+      "contract": "0000004892",
+      "action": "R"
+    },
+    {
+      "contract": "0000004895",
+      "action": "R"
+    },
+    {
+      "contract": "0000004959",
+      "action": "R"
+    },
+    {
+      "contract": "0000005143",
+      "action": "R"
+    },
+    {
+      "contract": "0000005633",
+      "action": "R"
+    },
+    {
+      "contract": "0000002509",
+      "action": "R"
+    },
+    {
+      "contract": "0000002526",
+      "action": "R"
+    },
+    {
+      "contract": "0000002646",
+      "action": "R"
+    },
+    {
+      "contract": "0000004225",
+      "action": "R"
+    },
+    {
+      "contract": "0000004328",
+      "action": "R"
+    },
+    {
+      "contract": "0000004933",
+      "action": "R"
+    },
+    {
+      "contract": "0000003487",
+      "action": "R"
+    },
+    {
+      "contract": "0000003243",
+      "action": "R"
+    },
+    {
+      "contract": "0000003353",
+      "action": "R"
+    },
+    {
+      "contract": "0000000409",
+      "action": "R"
+    },
+    {
+      "contract": "0000005682",
+      "action": "R"
+    },
+    {
+      "contract": "0000006605",
+      "action": "R"
+    },
+    {
+      "contract": "0000003865",
+      "action": "R"
+    },
+    {
+      "contract": "0000005190",
+      "action": "R"
+    },
+    {
+      "contract": "0000000704",
+      "action": "R"
+    },
+    {
+      "contract": "0000003196",
+      "action": "R"
+    },
+    {
+      "contract": "0000003850",
+      "action": "R"
+    },
+    {
+      "contract": "0000000298",
+      "action": "R"
+    },
+    {
+      "contract": "0000001128",
+      "action": "R"
+    },
+    {
+      "contract": "0000000228",
+      "action": "R"
+    },
+    {
+      "contract": "0000003679",
+      "action": "R"
+    },
+    {
+      "contract": "0000004502",
+      "action": "R"
+    },
+    {
+      "contract": "0000005201",
+      "action": "R"
+    },
+    {
+      "contract": "0000000742",
+      "action": "R"
+    },
+    {
+      "contract": "0000003398",
+      "action": "R"
+    },
+    {
+      "contract": "0000003753",
+      "action": "R"
+    },
+    {
+      "contract": "0000001416",
+      "action": "R"
+    },
+    {
+      "contract": "0000001738",
+      "action": "R"
+    },
+    {
+      "contract": "0000002290",
+      "action": "R"
+    },
+    {
+      "contract": "0000004233",
+      "action": "R"
+    },
+    {
+      "contract": "0000003834",
+      "action": "R"
+    },
+    {
+      "contract": "0000005265",
+      "action": "R"
+    },
+    {
+      "contract": "0000005469",
+      "action": "R"
+    },
+    {
+      "contract": "0000004336",
+      "action": "R"
+    },
+    {
+      "contract": "0000002759",
+      "action": "R"
+    },
+    {
+      "contract": "0000004752",
+      "action": "R"
+    },
+    {
+      "contract": "0000000441",
+      "action": "R"
+    },
+    {
+      "contract": "0000003806",
+      "action": "R"
+    },
+    {
+      "contract": "0000000857",
+      "action": "R"
+    },
+    {
+      "contract": "0000000190",
+      "action": "R"
+    },
+    {
+      "contract": "0000000311",
+      "action": "R"
+    },
+    {
+      "contract": "0000005944",
+      "action": "R"
+    },
+    {
+      "contract": "0000003530",
+      "action": "R"
+    },
+    {
+      "contract": "0000000299",
+      "action": "R"
+    },
+    {
+      "contract": "0000003856",
+      "action": "R"
+    },
+    {
+      "contract": "0000000446",
+      "action": "R"
+    },
+    {
+      "contract": "0000000985",
+      "action": "R"
+    },
+    {
+      "contract": "0000001174",
+      "action": "R"
+    },
+    {
+      "contract": "0000001170",
+      "action": "R"
+    },
+    {
+      "contract": "0000002281",
+      "action": "R"
+    },
+    {
+      "contract": "0000000613",
+      "action": "R"
+    },
+    {
+      "contract": "0000002530",
+      "action": "R"
+    },
+    {
+      "contract": "0000003771",
+      "action": "R"
+    },
+    {
+      "contract": "0000002250",
+      "action": "R"
+    },
+    {
+      "contract": "0000003113",
+      "action": "R"
+    },
+    {
+      "contract": "0000005746",
+      "action": "R"
+    },
+    {
+      "contract": "0000003467",
+      "action": "R"
+    },
+    {
+      "contract": "0000002247",
+      "action": "R"
+    },
+    {
+      "contract": "0000004373",
+      "action": "R"
+    },
+    {
+      "contract": "0000000787",
+      "action": "R"
+    },
+    {
+      "contract": "0000003528",
+      "action": "R"
+    },
+    {
+      "contract": "0000003396",
+      "action": "R"
+    },
+    {
+      "contract": "0000002203",
+      "action": "R"
+    },
+    {
+      "contract": "0000002946",
+      "action": "R"
+    },
+    {
+      "contract": "0000005655",
+      "action": "R"
+    },
+    {
+      "contract": "0000002564",
+      "action": "R"
+    },
+    {
+      "contract": "0000003899",
+      "action": "R"
+    },
+    {
+      "contract": "0000005272",
+      "action": "R"
+    },
+    {
+      "contract": "0000000274",
+      "action": "R"
+    },
+    {
+      "contract": "0000000385",
+      "action": "R"
+    },
+    {
+      "contract": "0000000384",
+      "action": "R"
+    },
+    {
+      "contract": "0000000584",
+      "action": "R"
+    },
+    {
+      "contract": "0000001020",
+      "action": "R"
+    },
+    {
+      "contract": "0000003847",
+      "action": "R"
+    },
+    {
+      "contract": "0000003897",
+      "action": "R"
+    },
+    {
+      "contract": "0000000930",
+      "action": "R"
+    },
+    {
+      "contract": "0000005180",
+      "action": "R"
+    },
+    {
+      "contract": "0000000044",
+      "action": "R"
+    },
+    {
+      "contract": "0000000061",
+      "action": "R"
+    },
+    {
+      "contract": "0000000387",
+      "action": "R"
+    },
+    {
+      "contract": "0000000350",
+      "action": "R"
+    },
+    {
+      "contract": "0000000119",
+      "action": "R"
+    },
+    {
+      "contract": "0000003395",
+      "action": "R"
+    },
+    {
+      "contract": "0000000670",
+      "action": "R"
+    },
+    {
+      "contract": "0000004960",
+      "action": "R"
+    },
+    {
+      "contract": "0000000301",
+      "action": "R"
+    },
+    {
+      "contract": "0000000366",
+      "action": "R"
+    },
+    {
+      "contract": "0000004546",
+      "action": "R"
+    },
+    {
+      "contract": "0000005099",
+      "action": "R"
+    },
+    {
+      "contract": "0000000453",
+      "action": "R"
+    },
+    {
+      "contract": "0000000363",
+      "action": "R"
+    },
+    {
+      "contract": "0000004682",
+      "action": "R"
+    },
+    {
+      "contract": "0000004762",
+      "action": "R"
+    },
+    {
+      "contract": "0000004422",
+      "action": "R"
+    },
+    {
+      "contract": "0000000217",
+      "action": "R"
+    },
+    {
+      "contract": "0000000225",
+      "action": "R"
+    },
+    {
+      "contract": "0000000544",
+      "action": "R"
+    },
+    {
+      "contract": "0000004524",
+      "action": "R"
+    },
+    {
+      "contract": "0000000571",
+      "action": "R"
+    },
+    {
+      "contract": "0000000700",
+      "action": "R"
+    },
+    {
+      "contract": "0000002762",
+      "action": "R"
+    },
+    {
+      "contract": "0000003760",
+      "action": "R"
+    },
+    {
+      "contract": "0000004665",
+      "action": "R"
+    },
+    {
+      "contract": "0000004180",
+      "action": "R"
+    },
+    {
+      "contract": "0000000208",
+      "action": "R"
+    },
+    {
+      "contract": "0000003254",
+      "action": "R"
+    },
+    {
+      "contract": "0000000549",
+      "action": "R"
+    },
+    {
+      "contract": "0000000664",
+      "action": "R"
+    },
+    {
+      "contract": "0000005730",
+      "action": "R"
+    },
+    {
+      "contract": "0000000591",
+      "action": "R"
+    },
+    {
+      "contract": "0000002437",
+      "action": "R"
+    },
+    {
+      "contract": "0000005242",
+      "action": "R"
+    },
+    {
+      "contract": "0000004459",
+      "action": "R"
+    },
+    {
+      "contract": "0000004806",
+      "action": "R"
+    },
+    {
+      "contract": "0000001908",
+      "action": "R"
+    },
+    {
+      "contract": "0000003339",
+      "action": "R"
+    },
+    {
+      "contract": "0000003357",
+      "action": "R"
+    },
+    {
+      "contract": "0000001829",
+      "action": "R"
+    },
+    {
+      "contract": "0000005182",
+      "action": "R"
+    },
+    {
+      "contract": "0000000002",
+      "action": "R"
+    },
+    {
+      "contract": "0000000448",
+      "action": "R"
+    },
+    {
+      "contract": "0000000665",
+      "action": "R"
+    },
+    {
+      "contract": "0000004694",
+      "action": "R"
+    },
+    {
+      "contract": "0000001299",
+      "action": "R"
+    },
+    {
+      "contract": "0000003597",
+      "action": "R"
+    },
+    {
+      "contract": "0000003683",
+      "action": "R"
+    },
+    {
+      "contract": "0000003867",
+      "action": "R"
+    },
+    {
+      "contract": "0000003264",
+      "action": "R"
+    },
+    {
+      "contract": "0000002357",
+      "action": "R"
+    },
+    {
+      "contract": "0000003313",
+      "action": "R"
+    },
+    {
+      "contract": "0000003294",
+      "action": "R"
+    },
+    {
+      "contract": "0000003436",
+      "action": "R"
+    },
+    {
+      "contract": "0000003852",
+      "action": "R"
+    },
+    {
+      "contract": "0000002877",
+      "action": "R"
+    },
+    {
+      "contract": "0000002176",
+      "action": "R"
+    },
+    {
+      "contract": "0000002718",
+      "action": "R"
+    },
+    {
+      "contract": "0000003452",
+      "action": "R"
+    },
+    {
+      "contract": "0000004975",
+      "action": "R"
+    },
+    {
+      "contract": "0000005619",
+      "action": "R"
+    },
+    {
+      "contract": "0000000966",
+      "action": "R"
+    },
+    {
+      "contract": "0000001611",
+      "action": "R"
+    },
+    {
+      "contract": "0000003678",
+      "action": "R"
+    },
+    {
+      "contract": "0000003871",
+      "action": "R"
+    },
+    {
+      "contract": "0000004410",
+      "action": "R"
+    },
+    {
+      "contract": "0000004246",
+      "action": "R"
+    },
+    {
+      "contract": "0000003628",
+      "action": "R"
+    },
+    {
+      "contract": "0000004603",
+      "action": "R"
+    },
+    {
+      "contract": "0000002713",
+      "action": "R"
+    },
+    {
+      "contract": "0000001520",
+      "action": "R"
+    },
+    {
+      "contract": "0000001839",
+      "action": "R"
+    },
+    {
+      "contract": "0000002201",
+      "action": "R"
+    },
+    {
+      "contract": "0000001149",
+      "action": "R"
+    },
+    {
+      "contract": "0000002586",
+      "action": "R"
+    },
+    {
+      "contract": "0000005851",
+      "action": "R"
+    },
+    {
+      "contract": "0000003325",
+      "action": "R"
+    },
+    {
+      "contract": "0000002940",
+      "action": "R"
+    },
+    {
+      "contract": "0000001205",
+      "action": "R"
+    },
+    {
+      "contract": "0000001435",
+      "action": "R"
+    },
+    {
+      "contract": "0000004612",
+      "action": "R"
+    },
+    {
+      "contract": "0000005198",
+      "action": "R"
+    },
+    {
+      "contract": "0000002505",
+      "action": "R"
+    },
+    {
+      "contract": "0000001055",
+      "action": "R"
+    },
+    {
+      "contract": "0000003156",
+      "action": "R"
+    },
+    {
+      "contract": "0000001068",
+      "action": "R"
+    },
+    {
+      "contract": "0000003355",
+      "action": "R"
+    },
+    {
+      "contract": "0000002651",
+      "action": "R"
+    },
+    {
+      "contract": "0000002981",
+      "action": "R"
+    },
+    {
+      "contract": "0000003035",
+      "action": "R"
+    },
+    {
+      "contract": "0000003219",
+      "action": "R"
+    },
+    {
+      "contract": "0000001567",
+      "action": "R"
+    },
+    {
+      "contract": "0000001601",
+      "action": "R"
+    },
+    {
+      "contract": "0000004066",
+      "action": "R"
+    },
+    {
+      "contract": "0000004112",
+      "action": "R"
+    },
+    {
+      "contract": "0000003509",
+      "action": "R"
+    },
+    {
+      "contract": "0000001080",
+      "action": "R"
+    },
+    {
+      "contract": "0000001087",
+      "action": "R"
+    },
+    {
+      "contract": "0000003903",
+      "action": "R"
+    },
+    {
+      "contract": "0000004391",
+      "action": "R"
+    },
+    {
+      "contract": "0000001837",
+      "action": "R"
+    },
+    {
+      "contract": "0000002315",
+      "action": "R"
+    },
+    {
+      "contract": "0000004877",
+      "action": "R"
+    },
+    {
+      "contract": "0000003186",
+      "action": "R"
+    },
+    {
+      "contract": "0000001919",
+      "action": "R"
+    },
+    {
+      "contract": "0000002237",
+      "action": "R"
+    },
+    {
+      "contract": "0000003885",
+      "action": "R"
+    },
+    {
+      "contract": "0000003945",
+      "action": "R"
+    },
+    {
+      "contract": "0000001180",
+      "action": "R"
+    },
+    {
+      "contract": "0000001230",
+      "action": "R"
+    },
+    {
+      "contract": "0000004766",
+      "action": "R"
+    },
+    {
+      "contract": "0000005380",
+      "action": "R"
+    },
+    {
+      "contract": "0000003383",
+      "action": "R"
+    },
+    {
+      "contract": "0000002628",
+      "action": "R"
+    },
+    {
+      "contract": "0000005557",
+      "action": "R"
+    },
+    {
+      "contract": "0000002906",
+      "action": "R"
+    },
+    {
+      "contract": "0000002061",
+      "action": "R"
+    },
+    {
+      "contract": "0000005646",
+      "action": "R"
+    },
+    {
+      "contract": "0000002962",
+      "action": "R"
+    },
+    {
+      "contract": "0000002997",
+      "action": "R"
+    },
+    {
+      "contract": "0000001232",
+      "action": "R"
+    },
+    {
+      "contract": "0000001278",
+      "action": "R"
+    },
+    {
+      "contract": "0000001982",
+      "action": "R"
+    },
+    {
+      "contract": "0000001283",
+      "action": "R"
+    },
+    {
+      "contract": "0000001364",
+      "action": "R"
+    },
+    {
+      "contract": "0000003184",
+      "action": "R"
+    },
+    {
+      "contract": "0000003171",
+      "action": "R"
+    },
+    {
+      "contract": "0000002206",
+      "action": "R"
+    },
+    {
+      "contract": "0000005660",
+      "action": "R"
+    },
+    {
+      "contract": "0000003965",
+      "action": "R"
+    },
+    {
+      "contract": "0000002440",
+      "action": "R"
+    },
+    {
+      "contract": "0000002702",
+      "action": "R"
+    },
+    {
+      "contract": "0000002969",
+      "action": "R"
+    },
+    {
+      "contract": "0000003183",
+      "action": "R"
+    },
+    {
+      "contract": "0000003208",
+      "action": "R"
+    },
+    {
+      "contract": "0000003373",
+      "action": "R"
+    },
+    {
+      "contract": "0000003439",
+      "action": "R"
+    },
+    {
+      "contract": "0000003449",
+      "action": "R"
+    },
+    {
+      "contract": "0000003880",
+      "action": "R"
+    },
+    {
+      "contract": "0000004776",
+      "action": "R"
+    },
+    {
+      "contract": "0000001603",
+      "action": "R"
+    },
+    {
+      "contract": "0000002024",
+      "action": "R"
+    },
+    {
+      "contract": "0000002926",
+      "action": "R"
+    },
+    {
+      "contract": "0000004707",
+      "action": "R"
+    },
+    {
+      "contract": "0000003017",
+      "action": "R"
+    },
+    {
+      "contract": "0000003169",
+      "action": "R"
+    },
+    {
+      "contract": "0000003842",
+      "action": "R"
+    },
+    {
+      "contract": "0000004655",
+      "action": "R"
+    },
+    {
+      "contract": "0000001492",
+      "action": "R"
+    },
+    {
+      "contract": "0000001599",
+      "action": "R"
+    },
+    {
+      "contract": "0000001521",
+      "action": "R"
+    },
+    {
+      "contract": "0000001593",
+      "action": "R"
+    },
+    {
+      "contract": "0000001482",
+      "action": "R"
+    },
+    {
+      "contract": "0000003966",
+      "action": "R"
+    },
+    {
+      "contract": "0000001618",
+      "action": "R"
+    },
+    {
+      "contract": "0000003150",
+      "action": "R"
+    },
+    {
+      "contract": "0000005038",
+      "action": "R"
+    },
+    {
+      "contract": "0000001576",
+      "action": "R"
+    },
+    {
+      "contract": "0000005474",
+      "action": "R"
+    },
+    {
+      "contract": "0000003032",
+      "action": "R"
+    },
+    {
+      "contract": "0000001983",
+      "action": "R"
+    },
+    {
+      "contract": "0000002965",
+      "action": "R"
+    },
+    {
+      "contract": "0000003155",
+      "action": "R"
+    },
+    {
+      "contract": "0000003908",
+      "action": "R"
+    },
+    {
+      "contract": "0000001486",
+      "action": "R"
+    },
+    {
+      "contract": "0000005468",
+      "action": "R"
+    },
+    {
+      "contract": "0000001525",
+      "action": "R"
+    },
+    {
+      "contract": "0000003510",
+      "action": "R"
+    },
+    {
+      "contract": "0000002613",
+      "action": "R"
+    },
+    {
+      "contract": "0000003402",
+      "action": "R"
+    },
+    {
+      "contract": "0000003473",
+      "action": "R"
+    },
+    {
+      "contract": "0000001705",
+      "action": "R"
+    },
+    {
+      "contract": "0000001794",
+      "action": "R"
+    },
+    {
+      "contract": "0000003761",
+      "action": "R"
+    },
+    {
+      "contract": "0000004354",
+      "action": "R"
+    },
+    {
+      "contract": "0000004716",
+      "action": "R"
+    },
+    {
+      "contract": "0000003524",
+      "action": "R"
+    },
+    {
+      "contract": "0000003536",
+      "action": "R"
+    },
+    {
+      "contract": "0000003978",
+      "action": "R"
+    },
+    {
+      "contract": "0000001674",
+      "action": "R"
+    },
+    {
+      "contract": "00000ARCOS",
+      "action": "R"
+    },
+    {
+      "contract": "0000003048",
+      "action": "R"
+    },
+    {
+      "contract": "0000003125",
+      "action": "R"
+    },
+    {
+      "contract": "0000003666",
+      "action": "R"
+    },
+    {
+      "contract": "0000003923",
+      "action": "R"
+    },
+    {
+      "contract": "0000003930",
+      "action": "R"
+    },
+    {
+      "contract": "0000003933",
+      "action": "R"
+    },
+    {
+      "contract": "0000001735",
+      "action": "R"
+    },
+    {
+      "contract": "0000001757",
+      "action": "R"
+    },
+    {
+      "contract": "0000005464",
+      "action": "R"
+    },
+    {
+      "contract": "0000005507",
+      "action": "R"
+    },
+    {
+      "contract": "0000001827",
+      "action": "R"
+    },
+    {
+      "contract": "0000005256",
+      "action": "R"
+    },
+    {
+      "contract": "0000001918",
+      "action": "R"
+    },
+    {
+      "contract": "0000005361",
+      "action": "R"
+    },
+    {
+      "contract": "0000005533",
+      "action": "R"
+    },
+    {
+      "contract": "0000002066",
+      "action": "R"
+    },
+    {
+      "contract": "0000002168",
+      "action": "R"
+    },
+    {
+      "contract": "0000002731",
+      "action": "R"
+    },
+    {
+      "contract": "0000002804",
+      "action": "R"
+    },
+    {
+      "contract": "0000003404",
+      "action": "R"
+    },
+    {
+      "contract": "0000003577",
+      "action": "R"
+    },
+    {
+      "contract": "0000002146",
+      "action": "R"
+    },
+    {
+      "contract": "0000003101",
+      "action": "R"
+    },
+    {
+      "contract": "0000002314",
+      "action": "R"
+    },
+    {
+      "contract": "0000002105",
+      "action": "R"
+    },
+    {
+      "contract": "0000002094",
+      "action": "R"
+    },
+    {
+      "contract": "0000003334",
+      "action": "R"
+    },
+    {
+      "contract": "0000005130",
+      "action": "R"
+    },
+    {
+      "contract": "0000004490",
+      "action": "R"
+    },
+    {
+      "contract": "0000002950",
+      "action": "R"
+    },
+    {
+      "contract": "0000004663",
+      "action": "R"
+    },
+    {
+      "contract": "0000003063",
+      "action": "R"
+    },
+    {
+      "contract": "0000004756",
+      "action": "R"
+    },
+    {
+      "contract": "0000004772",
+      "action": "R"
+    },
+    {
+      "contract": "0000004813",
+      "action": "R"
+    },
+    {
+      "contract": "0000001802",
+      "action": "R"
+    },
+    {
+      "contract": "0000002348",
+      "action": "R"
+    },
+    {
+      "contract": "0000001885",
+      "action": "R"
+    },
+    {
+      "contract": "0000002162",
+      "action": "R"
+    },
+    {
+      "contract": "0000004951",
+      "action": "R"
+    },
+    {
+      "contract": "0000001946",
+      "action": "R"
+    },
+    {
+      "contract": "0000002102",
+      "action": "R"
+    },
+    {
+      "contract": "0000004462",
+      "action": "R"
+    },
+    {
+      "contract": "0000005267",
+      "action": "R"
+    },
+    {
+      "contract": "0000003324",
+      "action": "R"
+    },
+    {
+      "contract": "0000005348",
+      "action": "R"
+    },
+    {
+      "contract": "0000002072",
+      "action": "R"
+    },
+    {
+      "contract": "0000003943",
+      "action": "R"
+    },
+    {
+      "contract": "0000002045",
+      "action": "R"
+    },
+    {
+      "contract": "0000003459",
+      "action": "R"
+    },
+    {
+      "contract": "0000004030",
+      "action": "R"
+    },
+    {
+      "contract": "0000004048",
+      "action": "R"
+    },
+    {
+      "contract": "0000001998",
+      "action": "R"
+    },
+    {
+      "contract": "0000002828",
+      "action": "R"
+    },
+    {
+      "contract": "0000003857",
+      "action": "R"
+    },
+    {
+      "contract": "0000004251",
+      "action": "R"
+    },
+    {
+      "contract": "0000004253",
+      "action": "R"
+    },
+    {
+      "contract": "0000005052",
+      "action": "R"
+    },
+    {
+      "contract": "0000002009",
+      "action": "R"
+    },
+    {
+      "contract": "0000002711",
+      "action": "R"
+    },
+    {
+      "contract": "0000003270",
+      "action": "R"
+    },
+    {
+      "contract": "0000002253",
+      "action": "R"
+    },
+    {
+      "contract": "0000002430",
+      "action": "R"
+    },
+    {
+      "contract": "0000004178",
+      "action": "R"
+    },
+    {
+      "contract": "0000002452",
+      "action": "R"
+    },
+    {
+      "contract": "0000002455",
+      "action": "R"
+    },
+    {
+      "contract": "0000002498",
+      "action": "R"
+    },
+    {
+      "contract": "0000003953",
+      "action": "R"
+    },
+    {
+      "contract": "0000003073",
+      "action": "R"
+    },
+    {
+      "contract": "0000004872",
+      "action": "R"
+    },
+    {
+      "contract": "0000002793",
+      "action": "R"
+    },
+    {
+      "contract": "0000002947",
+      "action": "R"
+    },
+    {
+      "contract": "0000001966",
+      "action": "R"
+    },
+    {
+      "contract": "0000004816",
+      "action": "R"
+    },
+    {
+      "contract": "0000005089",
+      "action": "R"
+    },
+    {
+      "contract": "0000002918",
+      "action": "R"
+    },
+    {
+      "contract": "0000001855",
+      "action": "R"
+    },
+    {
+      "contract": "0000002054",
+      "action": "R"
+    },
+    {
+      "contract": "0000004976",
+      "action": "R"
+    },
+    {
+      "contract": "0000005784",
+      "action": "R"
+    },
+    {
+      "contract": "0000004325",
+      "action": "R"
+    },
+    {
+      "contract": "0000004327",
+      "action": "R"
+    },
+    {
+      "contract": "0000002135",
+      "action": "R"
+    },
+    {
+      "contract": "0000002103",
+      "action": "R"
+    },
+    {
+      "contract": "0000002854",
+      "action": "R"
+    },
+    {
+      "contract": "0000004563",
+      "action": "R"
+    },
+    {
+      "contract": "0000004838",
+      "action": "R"
+    },
+    {
+      "contract": "0000002319",
+      "action": "R"
+    },
+    {
+      "contract": "0000004022",
+      "action": "R"
+    },
+    {
+      "contract": "0000002271",
+      "action": "R"
+    },
+    {
+      "contract": "0000005132",
+      "action": "R"
+    },
+    {
+      "contract": "0000001903",
+      "action": "R"
+    },
+    {
+      "contract": "0000001993",
+      "action": "R"
+    },
+    {
+      "contract": "0000004076",
+      "action": "R"
+    },
+    {
+      "contract": "0000001937",
+      "action": "R"
+    },
+    {
+      "contract": "0000003426",
+      "action": "R"
+    },
+    {
+      "contract": "0000004649",
+      "action": "R"
+    },
+    {
+      "contract": "0000002123",
+      "action": "R"
+    },
+    {
+      "contract": "0000002363",
+      "action": "R"
+    },
+    {
+      "contract": "0000002303",
+      "action": "R"
+    },
+    {
+      "contract": "0000002955",
+      "action": "R"
+    },
+    {
+      "contract": "0000002984",
+      "action": "R"
+    },
+    {
+      "contract": "0000003004",
+      "action": "R"
+    },
+    {
+      "contract": "0000003054",
+      "action": "R"
+    },
+    {
+      "contract": "0000003107",
+      "action": "R"
+    },
+    {
+      "contract": "0000002011",
+      "action": "R"
+    },
+    {
+      "contract": "0000002098",
+      "action": "R"
+    },
+    {
+      "contract": "0000002036",
+      "action": "R"
+    },
+    {
+      "contract": "0000002116",
+      "action": "R"
+    },
+    {
+      "contract": "0000004151",
+      "action": "R"
+    },
+    {
+      "contract": "0000002040",
+      "action": "R"
+    },
+    {
+      "contract": "0000004198",
+      "action": "R"
+    },
+    {
+      "contract": "0000004483",
+      "action": "R"
+    },
+    {
+      "contract": "0000002339",
+      "action": "R"
+    },
+    {
+      "contract": "0000002293",
+      "action": "R"
+    },
+    {
+      "contract": "0000002419",
+      "action": "R"
+    },
+    {
+      "contract": "0000002465",
+      "action": "R"
+    },
+    {
+      "contract": "0000002480",
+      "action": "R"
+    },
+    {
+      "contract": "0000002739",
+      "action": "R"
+    },
+    {
+      "contract": "0000002994",
+      "action": "R"
+    },
+    {
+      "contract": "0000003024",
+      "action": "R"
+    },
+    {
+      "contract": "0000003015",
+      "action": "R"
+    },
+    {
+      "contract": "0000003377",
+      "action": "R"
+    },
+    {
+      "contract": "0000003364",
+      "action": "R"
+    },
+    {
+      "contract": "0000003220",
+      "action": "R"
+    },
+    {
+      "contract": "0000004984",
+      "action": "R"
+    },
+    {
+      "contract": "0000002977",
+      "action": "R"
+    },
+    {
+      "contract": "0000002824",
+      "action": "R"
+    },
+    {
+      "contract": "0000002695",
+      "action": "R"
+    },
+    {
+      "contract": "0000002627",
+      "action": "R"
+    },
+    {
+      "contract": "0000003724",
+      "action": "R"
+    },
+    {
+      "contract": "0000003258",
+      "action": "R"
+    },
+    {
+      "contract": "0000002772",
+      "action": "R"
+    },
+    {
+      "contract": "0000002843",
+      "action": "R"
+    },
+    {
+      "contract": "0000002382",
+      "action": "R"
+    },
+    {
+      "contract": "0000003361",
+      "action": "R"
+    },
+    {
+      "contract": "0000003414",
+      "action": "R"
+    },
+    {
+      "contract": "0000002226",
+      "action": "R"
+    },
+    {
+      "contract": "0000002269",
+      "action": "R"
+    },
+    {
+      "contract": "0000002268",
+      "action": "R"
+    },
+    {
+      "contract": "0000005195",
+      "action": "R"
+    },
+    {
+      "contract": "0000002286",
+      "action": "R"
+    },
+    {
+      "contract": "0000002715",
+      "action": "R"
+    },
+    {
+      "contract": "0000003476",
+      "action": "R"
+    },
+    {
+      "contract": "0000002957",
+      "action": "R"
+    },
+    {
+      "contract": "0000002967",
+      "action": "R"
+    },
+    {
+      "contract": "0000003011",
+      "action": "R"
+    },
+    {
+      "contract": "0000002979",
+      "action": "R"
+    },
+    {
+      "contract": "0000005312",
+      "action": "R"
+    },
+    {
+      "contract": "0000003168",
+      "action": "R"
+    },
+    {
+      "contract": "0000003234",
+      "action": "R"
+    },
+    {
+      "contract": "0000003648",
+      "action": "R"
+    },
+    {
+      "contract": "0000003670",
+      "action": "R"
+    },
+    {
+      "contract": "0000003718",
+      "action": "R"
+    },
+    {
+      "contract": "0000004232",
+      "action": "R"
+    },
+    {
+      "contract": "0000004648",
+      "action": "R"
+    },
+    {
+      "contract": "0000004858",
+      "action": "R"
+    },
+    {
+      "contract": "0000002579",
+      "action": "R"
+    },
+    {
+      "contract": "0000003900",
+      "action": "R"
+    },
+    {
+      "contract": "0000004247",
+      "action": "R"
+    },
+    {
+      "contract": "0000002677",
+      "action": "R"
+    },
+    {
+      "contract": "0000004925",
+      "action": "R"
+    },
+    {
+      "contract": "0000002870",
+      "action": "R"
+    },
+    {
+      "contract": "0000002872",
+      "action": "R"
+    },
+    {
+      "contract": "0000004999",
+      "action": "R"
+    },
+    {
+      "contract": "0000002801",
+      "action": "R"
+    },
+    {
+      "contract": "0000003040",
+      "action": "R"
+    },
+    {
+      "contract": "0000002862",
+      "action": "R"
+    },
+    {
+      "contract": "0000002917",
+      "action": "R"
+    },
+    {
+      "contract": "0000005104",
+      "action": "R"
+    },
+    {
+      "contract": "0000005165",
+      "action": "R"
+    },
+    {
+      "contract": "0000003014",
+      "action": "R"
+    },
+    {
+      "contract": "0000003111",
+      "action": "R"
+    },
+    {
+      "contract": "0000005391",
+      "action": "R"
+    },
+    {
+      "contract": "0000003153",
+      "action": "R"
+    },
+    {
+      "contract": "0000003209",
+      "action": "R"
+    },
+    {
+      "contract": "0000003241",
+      "action": "R"
+    },
+    {
+      "contract": "0000003250",
+      "action": "R"
+    },
+    {
+      "contract": "0000003252",
+      "action": "R"
+    },
+    {
+      "contract": "0000003262",
+      "action": "R"
+    },
+    {
+      "contract": "0000003327",
+      "action": "R"
+    },
+    {
+      "contract": "0000005593",
+      "action": "R"
+    },
+    {
+      "contract": "0000005880",
+      "action": "R"
+    },
+    {
+      "contract": "0000004161",
+      "action": "R"
+    },
+    {
+      "contract": "0000002889",
+      "action": "R"
+    },
+    {
+      "contract": "0000003095",
+      "action": "R"
+    },
+    {
+      "contract": "0000000068",
+      "action": "R"
+    },
+    {
+      "contract": "0000004437",
+      "action": "R"
+    },
+    {
+      "contract": "0000003119",
+      "action": "R"
+    },
+    {
+      "contract": "0000003237",
+      "action": "R"
+    },
+    {
+      "contract": "0000003851",
+      "action": "R"
+    },
+    {
+      "contract": "0000003558",
+      "action": "R"
+    },
+    {
+      "contract": "0000003652",
+      "action": "R"
+    },
+    {
+      "contract": "0000003861",
+      "action": "R"
+    },
+    {
+      "contract": "0000005609",
+      "action": "R"
+    },
+    {
+      "contract": "0000002990",
+      "action": "R"
+    },
+    {
+      "contract": "0000003580",
+      "action": "R"
+    },
+    {
+      "contract": "0000003831",
+      "action": "R"
+    },
+    {
+      "contract": "0000004618",
+      "action": "R"
+    },
+    {
+      "contract": "0000006322",
+      "action": "R"
+    },
+    {
+      "contract": "0000004360",
+      "action": "R"
+    },
+    {
+      "contract": "0000003105",
+      "action": "R"
+    },
+    {
+      "contract": "0000003151",
+      "action": "R"
+    },
+    {
+      "contract": "0000003297",
+      "action": "R"
+    },
+    {
+      "contract": "0000003721",
+      "action": "R"
+    },
+    {
+      "contract": "0000003784",
+      "action": "R"
+    },
+    {
+      "contract": "0000004378",
+      "action": "R"
+    },
+    {
+      "contract": "0000004605",
+      "action": "R"
+    },
+    {
+      "contract": "0000004706",
+      "action": "R"
+    },
+    {
+      "contract": "0000004759",
+      "action": "R"
+    },
+    {
+      "contract": "0000005881",
+      "action": "R"
+    },
+    {
+      "contract": "0000005923",
+      "action": "R"
+    },
+    {
+      "contract": "0000005589",
+      "action": "R"
+    },
+    {
+      "contract": "0000003858",
+      "action": "R"
+    },
+    {
+      "contract": "0000003881",
+      "action": "R"
+    },
+    {
+      "contract": "0000004561",
+      "action": "R"
+    },
+    {
+      "contract": "0000004735",
+      "action": "R"
+    },
+    {
+      "contract": "0000004792",
+      "action": "R"
+    },
+    {
+      "contract": "0000003767",
+      "action": "R"
+    },
+    {
+      "contract": "0000003843",
+      "action": "R"
+    },
+    {
+      "contract": "0000004768",
+      "action": "R"
+    },
+    {
+      "contract": "0000005755",
+      "action": "R"
+    },
+    {
+      "contract": "0000005560",
+      "action": "R"
+    },
+    {
+      "contract": "0000004050",
+      "action": "R"
+    },
+    {
+      "contract": "0000004096",
+      "action": "R"
+    },
+    {
+      "contract": "0000004215",
+      "action": "R"
+    },
+    {
+      "contract": "0000004423",
+      "action": "R"
+    },
+    {
+      "contract": "0000004447",
+      "action": "R"
+    },
+    {
+      "contract": "0000004484",
+      "action": "R"
+    },
+    {
+      "contract": "0000004070",
+      "action": "R"
+    },
+    {
+      "contract": "0000004154",
+      "action": "R"
+    },
+    {
+      "contract": "0000004269",
+      "action": "R"
+    },
+    {
+      "contract": "0000004376",
+      "action": "R"
+    },
+    {
+      "contract": "0000004371",
+      "action": "R"
+    },
+    {
+      "contract": "0000004424",
+      "action": "R"
+    },
+    {
+      "contract": "0000000106",
+      "action": "R"
+    },
+    {
+      "contract": "0000004660",
+      "action": "R"
+    },
+    {
+      "contract": "0000004738",
+      "action": "R"
+    },
+    {
+      "contract": "0000004742",
+      "action": "R"
+    },
+    {
+      "contract": "0000004803",
+      "action": "R"
+    },
+    {
+      "contract": "0000004832",
+      "action": "R"
+    },
+    {
+      "contract": "0000004955",
+      "action": "R"
+    },
+    {
+      "contract": "0000004954",
+      "action": "R"
+    },
+    {
+      "contract": "0000005062",
+      "action": "R"
+    },
+    {
+      "contract": "0000005123",
+      "action": "R"
+    },
+    {
+      "contract": "0000005136",
+      "action": "R"
+    },
+    {
+      "contract": "0000005222",
+      "action": "R"
+    },
+    {
+      "contract": "0000005268",
+      "action": "R"
+    },
+    {
+      "contract": "0000005370",
+      "action": "R"
+    },
+    {
+      "contract": "0000005371",
+      "action": "R"
+    },
+    {
+      "contract": "0000005564",
+      "action": "R"
+    },
+    {
+      "contract": "0000004044",
+      "action": "R"
+    },
+    {
+      "contract": "0000004047",
+      "action": "R"
+    },
+    {
+      "contract": "0000004081",
+      "action": "R"
+    },
+    {
+      "contract": "0000004157",
+      "action": "R"
+    },
+    {
+      "contract": "0000004316",
+      "action": "R"
+    },
+    {
+      "contract": "0000004427",
+      "action": "R"
+    },
+    {
+      "contract": "0000005022",
+      "action": "R"
+    },
+    {
+      "contract": "0000004537",
+      "action": "R"
+    },
+    {
+      "contract": "0000004700",
+      "action": "R"
+    },
+    {
+      "contract": "0000004829",
+      "action": "R"
+    },
+    {
+      "contract": "0000005217",
+      "action": "R"
+    },
+    {
+      "contract": "0000005249",
+      "action": "R"
+    },
+    {
+      "contract": "0000005867",
+      "action": "R"
+    },
+    {
+      "contract": "0000005820",
+      "action": "R"
+    },
+    {
+      "contract": "0000004320",
+      "action": "R"
+    },
+    {
+      "contract": "0000004405",
+      "action": "R"
+    },
+    {
+      "contract": "0000005290",
+      "action": "R"
+    },
+    {
+      "contract": "0000004704",
+      "action": "R"
+    },
+    {
+      "contract": "0000004717",
+      "action": "R"
+    },
+    {
+      "contract": "0000005440",
+      "action": "R"
+    },
+    {
+      "contract": "0000005532",
+      "action": "R"
+    },
+    {
+      "contract": "0000004736",
+      "action": "R"
+    },
+    {
+      "contract": "0000004137",
+      "action": "R"
+    },
+    {
+      "contract": "0000004358",
+      "action": "R"
+    },
+    {
+      "contract": "0000004698",
+      "action": "R"
+    },
+    {
+      "contract": "0000005616",
+      "action": "R"
+    },
+    {
+      "contract": "0000004073",
+      "action": "R"
+    },
+    {
+      "contract": "0000004072",
+      "action": "R"
+    },
+    {
+      "contract": "0000004368",
+      "action": "R"
+    },
+    {
+      "contract": "0000004443",
+      "action": "R"
+    },
+    {
+      "contract": "0000004449",
+      "action": "R"
+    },
+    {
+      "contract": "0000004661",
+      "action": "R"
+    },
+    {
+      "contract": "0000004826",
+      "action": "R"
+    },
+    {
+      "contract": "0000005018",
+      "action": "R"
+    },
+    {
+      "contract": "0000005111",
+      "action": "R"
+    },
+    {
+      "contract": "0000005294",
+      "action": "R"
+    },
+    {
+      "contract": "0000005683",
+      "action": "R"
+    },
+    {
+      "contract": "0000006426",
+      "action": "R"
+    },
+    {
+      "contract": "0000004821",
+      "action": "R"
+    },
+    {
+      "contract": "0000005529",
+      "action": "R"
+    },
+    {
+      "contract": "0000004108",
+      "action": "R"
+    },
+    {
+      "contract": "0000004520",
+      "action": "R"
+    },
+    {
+      "contract": "0000005965",
+      "action": "R"
+    },
+    {
+      "contract": "0000005328",
+      "action": "R"
+    },
+    {
+      "contract": "0000005349",
+      "action": "R"
+    },
+    {
+      "contract": "0000004212",
+      "action": "R"
+    },
+    {
+      "contract": "0000004323",
+      "action": "R"
+    },
+    {
+      "contract": "0000004326",
+      "action": "R"
+    },
+    {
+      "contract": "0000004370",
+      "action": "R"
+    },
+    {
+      "contract": "0000005344",
+      "action": "R"
+    },
+    {
+      "contract": "0000004380",
+      "action": "R"
+    },
+    {
+      "contract": "0000004234",
+      "action": "R"
+    },
+    {
+      "contract": "0000004250",
+      "action": "R"
+    },
+    {
+      "contract": "0000004679",
+      "action": "R"
+    },
+    {
+      "contract": "0000004743",
+      "action": "R"
+    },
+    {
+      "contract": "0000004963",
+      "action": "R"
+    },
+    {
+      "contract": "0000004972",
+      "action": "R"
+    },
+    {
+      "contract": "0000005011",
+      "action": "R"
+    },
+    {
+      "contract": "0000005145",
+      "action": "R"
+    },
+    {
+      "contract": "0000005801",
+      "action": "R"
+    },
+    {
+      "contract": "0000005912",
+      "action": "R"
+    },
+    {
+      "contract": "0000004406",
+      "action": "R"
+    },
+    {
+      "contract": "0000000072",
+      "action": "R"
+    },
+    {
+      "contract": "0000004485",
+      "action": "R"
+    },
+    {
+      "contract": "0000004787",
+      "action": "R"
+    },
+    {
+      "contract": "0000004964",
+      "action": "R"
+    },
+    {
+      "contract": "0000005129",
+      "action": "R"
+    },
+    {
+      "contract": "0000004292",
+      "action": "R"
+    },
+    {
+      "contract": "0000004299",
+      "action": "R"
+    },
+    {
+      "contract": "0000004297",
+      "action": "R"
+    },
+    {
+      "contract": "0000004304",
+      "action": "R"
+    },
+    {
+      "contract": "0000004302",
+      "action": "R"
+    },
+    {
+      "contract": "0000004307",
+      "action": "R"
+    },
+    {
+      "contract": "0000004324",
+      "action": "R"
+    },
+    {
+      "contract": "0000004344",
+      "action": "R"
+    },
+    {
+      "contract": "0000000051",
+      "action": "R"
+    },
+    {
+      "contract": "0000005960",
+      "action": "R"
+    },
+    {
+      "contract": "0000004538",
+      "action": "R"
+    },
+    {
+      "contract": "0000004595",
+      "action": "R"
+    },
+    {
+      "contract": "0000004678",
+      "action": "R"
+    },
+    {
+      "contract": "0000004812",
+      "action": "R"
+    },
+    {
+      "contract": "0000004840",
+      "action": "R"
+    },
+    {
+      "contract": "0000004822",
+      "action": "R"
+    },
+    {
+      "contract": "0000004864",
+      "action": "R"
+    },
+    {
+      "contract": "0000005071",
+      "action": "R"
+    },
+    {
+      "contract": "0000005135",
+      "action": "R"
+    },
+    {
+      "contract": "0000005160",
+      "action": "R"
+    },
+    {
+      "contract": "0000005299",
+      "action": "R"
+    },
+    {
+      "contract": "0000005431",
+      "action": "R"
+    },
+    {
+      "contract": "0000005433",
+      "action": "R"
+    },
+    {
+      "contract": "0000004397",
+      "action": "R"
+    },
+    {
+      "contract": "0000004244",
+      "action": "R"
+    },
+    {
+      "contract": "0000004488",
+      "action": "R"
+    },
+    {
+      "contract": "0000004927",
+      "action": "R"
+    },
+    {
+      "contract": "0000004932",
+      "action": "R"
+    },
+    {
+      "contract": "0000004992",
+      "action": "R"
+    },
+    {
+      "contract": "0000005082",
+      "action": "R"
+    },
+    {
+      "contract": "0000005334",
+      "action": "R"
+    },
+    {
+      "contract": "0000005493",
+      "action": "R"
+    },
+    {
+      "contract": "0000005496",
+      "action": "R"
+    },
+    {
+      "contract": "0000005524",
+      "action": "R"
+    },
+    {
+      "contract": "0000006044",
+      "action": "R"
+    },
+    {
+      "contract": "0000004411",
+      "action": "R"
+    },
+    {
+      "contract": "0000004433",
+      "action": "R"
+    },
+    {
+      "contract": "0000000039",
+      "action": "R"
+    },
+    {
+      "contract": "0000004517",
+      "action": "R"
+    },
+    {
+      "contract": "0000004536",
+      "action": "R"
+    },
+    {
+      "contract": "0000004747",
+      "action": "R"
+    },
+    {
+      "contract": "0000004885",
+      "action": "R"
+    },
+    {
+      "contract": "0000004970",
+      "action": "R"
+    },
+    {
+      "contract": "0000004989",
+      "action": "R"
+    },
+    {
+      "contract": "0000005307",
+      "action": "R"
+    },
+    {
+      "contract": "0000005358",
+      "action": "R"
+    },
+    {
+      "contract": "0000005580",
+      "action": "R"
+    },
+    {
+      "contract": "0000004508",
+      "action": "R"
+    },
+    {
+      "contract": "0000004518",
+      "action": "R"
+    },
+    {
+      "contract": "0000004531",
+      "action": "R"
+    },
+    {
+      "contract": "0000004902",
+      "action": "R"
+    },
+    {
+      "contract": "0000004986",
+      "action": "R"
+    },
+    {
+      "contract": "0000005065",
+      "action": "R"
+    },
+    {
+      "contract": "0000005192",
+      "action": "R"
+    },
+    {
+      "contract": "0000005288",
+      "action": "R"
+    },
+    {
+      "contract": "0000005303",
+      "action": "R"
+    },
+    {
+      "contract": "0000005384",
+      "action": "R"
+    },
+    {
+      "contract": "0000005539",
+      "action": "R"
+    },
+    {
+      "contract": "0000005001",
+      "action": "R"
+    },
+    {
+      "contract": "0000004896",
+      "action": "R"
+    },
+    {
+      "contract": "0000004590",
+      "action": "R"
+    },
+    {
+      "contract": "0000004596",
+      "action": "R"
+    },
+    {
+      "contract": "0000004642",
+      "action": "R"
+    },
+    {
+      "contract": "0000005161",
+      "action": "R"
+    },
+    {
+      "contract": "0000005645",
+      "action": "R"
+    },
+    {
+      "contract": "0000004545",
+      "action": "R"
+    },
+    {
+      "contract": "0000004662",
+      "action": "R"
+    },
+    {
+      "contract": "0000004926",
+      "action": "R"
+    },
+    {
+      "contract": "0000005373",
+      "action": "R"
+    },
+    {
+      "contract": "0000004551",
+      "action": "R"
+    },
+    {
+      "contract": "0000004559",
+      "action": "R"
+    },
+    {
+      "contract": "0000004631",
+      "action": "R"
+    },
+    {
+      "contract": "0000004824",
+      "action": "R"
+    },
+    {
+      "contract": "0000004867",
+      "action": "R"
+    },
+    {
+      "contract": "0000005106",
+      "action": "R"
+    },
+    {
+      "contract": "0000005286",
+      "action": "R"
+    },
+    {
+      "contract": "0000005305",
+      "action": "R"
+    },
+    {
+      "contract": "0000005506",
+      "action": "R"
+    },
+    {
+      "contract": "0000004591",
+      "action": "R"
+    },
+    {
+      "contract": "0000005162",
+      "action": "R"
+    },
+    {
+      "contract": "0000005170",
+      "action": "R"
+    },
+    {
+      "contract": "0000005194",
+      "action": "R"
+    },
+    {
+      "contract": "0000005196",
+      "action": "R"
+    },
+    {
+      "contract": "0000005262",
+      "action": "R"
+    },
+    {
+      "contract": "0000004757",
+      "action": "R"
+    },
+    {
+      "contract": "0000004801",
+      "action": "R"
+    },
+    {
+      "contract": "0000004913",
+      "action": "R"
+    },
+    {
+      "contract": "0000004982",
+      "action": "R"
+    },
+    {
+      "contract": "0000005134",
+      "action": "R"
+    },
+    {
+      "contract": "0000004597",
+      "action": "R"
+    },
+    {
+      "contract": "0000004684",
+      "action": "R"
+    },
+    {
+      "contract": "0000004697",
+      "action": "R"
+    },
+    {
+      "contract": "0000004795",
+      "action": "R"
+    },
+    {
+      "contract": "0000004981",
+      "action": "R"
+    },
+    {
+      "contract": "0000005005",
+      "action": "R"
+    },
+    {
+      "contract": "0000005009",
+      "action": "R"
+    },
+    {
+      "contract": "0000005030",
+      "action": "R"
+    },
+    {
+      "contract": "0000005056",
+      "action": "R"
+    },
+    {
+      "contract": "0000005058",
+      "action": "R"
+    },
+    {
+      "contract": "0000005061",
+      "action": "R"
+    },
+    {
+      "contract": "0000005083",
+      "action": "R"
+    },
+    {
+      "contract": "0000005330",
+      "action": "R"
+    },
+    {
+      "contract": "0000006452",
+      "action": "R"
+    },
+    {
+      "contract": "0000005240",
+      "action": "R"
+    },
+    {
+      "contract": "0000005152",
+      "action": "R"
+    },
+    {
+      "contract": "0000004977",
+      "action": "R"
+    },
+    {
+      "contract": "0000005247",
+      "action": "R"
+    },
+    {
+      "contract": "0000005864",
+      "action": "R"
+    },
+    {
+      "contract": "0000004920",
+      "action": "R"
+    },
+    {
+      "contract": "0000004921",
+      "action": "R"
+    },
+    {
+      "contract": "0000004929",
+      "action": "R"
+    },
+    {
+      "contract": "0000004919",
+      "action": "R"
+    },
+    {
+      "contract": "0000004983",
+      "action": "R"
+    },
+    {
+      "contract": "0000005113",
+      "action": "R"
+    },
+    {
+      "contract": "0000005185",
+      "action": "R"
+    },
+    {
+      "contract": "0000005186",
+      "action": "R"
+    },
+    {
+      "contract": "0000005187",
+      "action": "R"
+    },
+    {
+      "contract": "0000005208",
+      "action": "R"
+    },
+    {
+      "contract": "0000003954",
+      "action": "R"
+    },
+    {
+      "contract": "0000003556",
+      "action": "R"
+    },
+    {
+      "contract": "0000000959",
+      "action": "R"
+    },
+    {
+      "contract": "0000004429",
+      "action": "R"
+    },
+    {
+      "contract": "0000000767",
+      "action": "R"
+    },
+    {
+      "contract": "0000002215",
+      "action": "R"
+    },
+    {
+      "contract": "0000004568",
+      "action": "R"
+    },
+    {
+      "contract": "0000000892",
+      "action": "R"
+    },
+    {
+      "contract": "0000005158",
+      "action": "R"
+    },
+    {
+      "contract": "0000005273",
+      "action": "R"
+    },
+    {
+      "contract": "0000000894",
+      "action": "R"
+    },
+    {
+      "contract": "0000005586",
+      "action": "R"
+    },
+    {
+      "contract": "0000000760",
+      "action": "R"
+    },
+    {
+      "contract": "0000000910",
+      "action": "R"
+    },
+    {
+      "contract": "0000000773",
+      "action": "R"
+    },
+    {
+      "contract": "0000003839",
+      "action": "R"
+    },
+    {
+      "contract": "0000005508",
+      "action": "R"
+    },
+    {
+      "contract": "0000003692",
+      "action": "R"
+    },
+    {
+      "contract": "0000000815",
+      "action": "R"
+    },
+    {
+      "contract": "0000000873",
+      "action": "R"
+    },
+    {
+      "contract": "0000005066",
+      "action": "R"
+    },
+    {
+      "contract": "0000005114",
+      "action": "R"
+    },
+    {
+      "contract": "0000005115",
+      "action": "R"
+    },
+    {
+      "contract": "0000005125",
+      "action": "R"
+    },
+    {
+      "contract": "0000005200",
+      "action": "R"
+    },
+    {
+      "contract": "0000005233",
+      "action": "R"
+    },
+    {
+      "contract": "0000005535",
+      "action": "R"
+    },
+    {
+      "contract": "0000005554",
+      "action": "R"
+    },
+    {
+      "contract": "0000005908",
+      "action": "R"
+    },
+    {
+      "contract": "0000005339",
+      "action": "R"
+    },
+    {
+      "contract": "0000005351",
+      "action": "R"
+    },
+    {
+      "contract": "0000005400",
+      "action": "R"
+    },
+    {
+      "contract": "0000005367",
+      "action": "R"
+    },
+    {
+      "contract": "0000005664",
+      "action": "R"
+    },
+    {
+      "contract": "0000005676",
+      "action": "R"
+    },
+    {
+      "contract": "0000005690",
+      "action": "R"
+    },
+    {
+      "contract": "0000005692",
+      "action": "R"
+    },
+    {
+      "contract": "0000005772",
+      "action": "R"
+    },
+    {
+      "contract": "0000005917",
+      "action": "R"
+    },
+    {
+      "contract": "0000005919",
+      "action": "R"
+    },
+    {
+      "contract": "0000005925",
+      "action": "R"
+    },
+    {
+      "contract": "0000005975",
+      "action": "R"
+    },
+    {
+      "contract": "0000005782",
+      "action": "R"
+    },
+    {
+      "contract": "0000005831",
+      "action": "R"
+    },
+    {
+      "contract": "0000005838",
+      "action": "R"
+    },
+    {
+      "contract": "0000005946",
+      "action": "R"
+    },
+    {
+      "contract": "0000006391",
+      "action": "R"
+    },
+    {
+      "contract": "0000005934",
+      "action": "R"
+    },
+    {
+      "contract": "0000005970",
+      "action": "R"
+    },
+    {
+      "contract": "0000005977",
+      "action": "R"
+    },
+    {
+      "contract": "0000006235",
+      "action": "R"
+    },
+    {
+      "contract": "0000006321",
+      "action": "R"
+    },
+    {
+      "contract": "0000000923",
+      "action": "R"
+    },
+    {
+      "contract": "0000000965",
+      "action": "R"
+    },
+    {
+      "contract": "0000004503",
+      "action": "R"
+    },
+    {
+      "contract": "0000001488",
+      "action": "R"
+    },
+    {
+      "contract": "0000006410",
+      "action": "R"
+    },
+    {
+      "contract": "0000006428",
+      "action": "R"
+    },
+    {
+      "contract": "0000006340",
+      "action": "R"
+    },
+    {
+      "contract": "0000003471",
+      "action": "R"
+    },
+    {
+      "contract": "0000005227",
+      "action": "R"
+    },
+    {
+      "contract": "0000003658",
+      "action": "R"
+    },
+    {
+      "contract": "0000005979",
+      "action": "R"
+    },
+    {
+      "contract": "0000003726",
+      "action": "R"
+    },
+    {
+      "contract": "0000003756",
+      "action": "R"
+    },
+    {
+      "contract": "0000003763",
+      "action": "R"
+    },
+    {
+      "contract": "0000003821",
+      "action": "R"
+    },
+    {
+      "contract": "0000003853",
+      "action": "R"
+    },
+    {
+      "contract": "0000003854",
+      "action": "R"
+    },
+    {
+      "contract": "0000004139",
+      "action": "R"
+    },
+    {
+      "contract": "0000005363",
+      "action": "R"
+    },
+    {
+      "contract": "0000005579",
+      "action": "R"
+    }
+  ]
+}
