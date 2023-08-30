@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
     "http://mon-env.us-west-2.elasticbeanstalk.com",
     "mon.conext.net.ve",
     "127.0.0.1",
+    "localhost",
     "172.31.26.32",
 ]
 

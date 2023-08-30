@@ -20,7 +20,8 @@ class MON(generics.GenericAPIView):
 class Summary(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
-        if api_key != os.environ["API_KEY"]:
+        print(api_key)
+        if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
         res = summary_data()
         if res["error"]:
@@ -32,7 +33,7 @@ class Summary(generics.GenericAPIView):
 class Alarms(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
-        if api_key != os.environ["API_KEY"]:
+        if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
         res = alarms_data()
         if res["error"]:
@@ -40,11 +41,11 @@ class Alarms(generics.GenericAPIView):
         return Response(res, 200)
 
 
-# get with apiKey to /deactivate?apiKey gives all the clients currently in a deactivate state
+# get with apiKey to /deactivates?apiKey gives all the clients currently in a deactivate state
 class Deactivate(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
-        if api_key != os.environ["API_KEY"]:
+        if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
         res = deactivates_data()
         if res["error"]:
@@ -59,7 +60,7 @@ class Deactivate(generics.GenericAPIView):
 class PortVerify(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
-        if api_key != os.environ["API_KEY"]:
+        if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
         fsp = req.query_params.get("fsp")
         olt = req.query_params.get("olt")
@@ -73,7 +74,7 @@ class PortVerify(generics.GenericAPIView):
 class AllClients(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
-        if api_key != os.environ["API_KEY"]:
+        if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
         res = all_clients()
         if res["error"]:
