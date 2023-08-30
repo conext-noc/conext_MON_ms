@@ -34,13 +34,16 @@ def port_data(fsp, olt):
 
     clients = []
     for client in client_list:
-        for alarm in alarms:
-            if alarm["contract_id"] == client["contract"]:
-                res = client.copy()
-                res["state"] = "los"
-                clients.append(res)
-            else:
-                clients.append(client)
-
+        if len(alarms) != 0:
+            for alarm in alarms:
+                if alarm["contract_id"] == client["contract"]:
+                    res = client.copy()
+                    res["state"] = "los"
+                    clients.append(res)
+                else:
+                    clients.append(client)
+        else:
+            clients.append(client)
+            
     los_clients = [item for item in clients if item["state"] == "los"]
     return {"error": False, "message": "success", "data": clients, "los": los_clients}
