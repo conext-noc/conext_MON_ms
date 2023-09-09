@@ -24,26 +24,24 @@ def port_data(fsp, olt):
     (comm, command, quit_ssh) = ssh(olt_devices[str(olt)])
     command("scroll 512")
     clients_port = clients_table(comm, command, lst)
-
+    quit_ssh()
     client_list = [
         {**client, **port}
         for client in clients_db
         for port in clients_port
-        if client["fspi"] == port["fspi"]
+        if client["fspi"] == port["fspi"] and len(client['fsp']) == len(port['fsp'])
     ]
 
     clients = []
     for client in client_list:
+        clients.append(client)
         if len(alarms) != 0:
             for alarm in alarms:
                 if alarm["contract_id"] == client["contract"]:
                     res = client.copy()
                     res["state"] = "los"
                     clients.append(res)
-                else:
-                    clients.append(client)
-        else:
-            clients.append(client)
-            
+
+    
     los_clients = [item for item in clients if item["state"] == "los"]
     return {"error": False, "message": "success", "data": clients, "los": los_clients}
