@@ -1,6 +1,8 @@
+import json
 import os
 from dotenv import load_dotenv
 from rest_framework.response import Response
+from django.http import JsonResponse
 from rest_framework import generics
 from mon.scripts.SM import summary_data
 from mon.scripts.CA import alarms_data
@@ -62,12 +64,12 @@ class PortVerify(generics.GenericAPIView):
         api_key = req.query_params.get("apiKey")
         if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
-        fsp = req.query_params.get("fsp")
+        fsp = req.query_params.get("fsp").replace("-","/")
         olt = req.query_params.get("olt")
         res = port_data(fsp, olt)
         if res["error"]:
             return Response(res, 202)
-        return Response(res, 200)
+        return JsonResponse(res)
 
 
 # get all clients data from any OLT to /total?apiKey

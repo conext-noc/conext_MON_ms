@@ -41,7 +41,6 @@ def port_data(fsp, olt):
                     res = client.copy()
                     res["state"] = "los"
                     clients.append(res)
-
     
     los_clients = [item for item in clients if item["state"] == "los"]
     return {"error": False, "message": "success", "data": clients, "los": los_clients}
