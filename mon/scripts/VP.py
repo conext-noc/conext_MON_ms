@@ -3,7 +3,7 @@ from mon.helpers.definitions import endpoints, olt_devices
 from mon.helpers.available_ports import available_ports
 from mon.helpers.table import clients_table
 from mon.scripts.ssh import ssh
-
+from pprint import pprint
 
 def port_data(fsp, olt):
     clients_db = db_request(
@@ -19,7 +19,6 @@ def port_data(fsp, olt):
             "message": "this port either doesn't exist or is unavailable/closed",
             "data": None,
         }
-
     lst = [{"fsp": fsp}]
     (comm, command, quit_ssh) = ssh(olt_devices[str(olt)])
     command("scroll 512")
@@ -33,15 +32,16 @@ def port_data(fsp, olt):
     ]
 
     clients = []
+    los_clients = []
+    alarms_contract_list = []
+    for alarm in alarms:
+        alarms_contract_list.append(str(alarm["contract_id"]))
     for client in client_list:
-        if len(alarms) != 0:
-            for alarm in alarms:
-                if alarm["contract_id"] == client["contract"]:
-                    res = client.copy()
-                    res["state"] = "los"
-                    clients.append(res)
-        else:
-            clients.append(client)
-    
-    los_clients = [item for item in clients if item["state"] == "los"]
+        res = client.copy()
+        if res['contract'] in alarms_contract_list:
+            res["state"] = "los"
+            pprint(res)
+            los_clients.append(res)
+        clients.append(res)
+
     return {"error": False, "message": "success", "data": clients, "los": los_clients}
