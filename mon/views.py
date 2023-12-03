@@ -1,4 +1,3 @@
-import json
 import os
 from dotenv import load_dotenv
 from rest_framework.response import Response
@@ -18,38 +17,41 @@ class MON(generics.GenericAPIView):
         return Response({"message": "ms_running", "error": False}, 200)
 
 
-# get with apikey to /summary?apiKey gives summarized data of olt => {active, deactivated, alarms}
+# get with apikey to /summary?apiKey&olt gives summarized data of olt => {active, deactivated, alarms}
 class Summary(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
         print(api_key)
         if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
-        res = summary_data()
+        olt = req.query_params.get("olt")
+        res = summary_data(olt)
         if res["error"]:
             return Response(res, 202)
         return Response(res, 200)
 
 
-# get with apiKey to /alarms?apiKey gives all the clients currently in a alarm state
+# get with apiKey to /alarms?apiKey&olt gives all the clients currently in a alarm state
 class Alarms(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
         if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
-        res = alarms_data()
+        olt = req.query_params.get("olt")
+        res = alarms_data(olt)
         if res["error"]:
             return Response(res, 202)
         return Response(res, 200)
 
 
-# get with apiKey to /deactivates?apiKey gives all the clients currently in a deactivate state
+# get with apiKey to /deactivates?apiKey&olt gives all the clients currently in a deactivate state
 class Deactivate(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
         if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
-        res = deactivates_data()
+        olt = req.query_params.get("olt")
+        res = deactivates_data(olt)
         if res["error"]:
             return Response(res, 202)
         return Response(res, 200)
@@ -58,7 +60,7 @@ class Deactivate(generics.GenericAPIView):
 # get with contract and apiKey to /traffic?contract&apiKey gives all the traffic currently in a client
 
 
-# get with fsp and apiKey to /port?fsp&apiKey gives the current info of a specific port
+# get with fsp and apiKey to /port?fsp&apiKey&olt gives the current info of a specific port
 class PortVerify(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
@@ -72,13 +74,14 @@ class PortVerify(generics.GenericAPIView):
         return JsonResponse(res)
 
 
-# get all clients data from any OLT to /total?apiKey
+# get all clients data from any OLT to /total?apiKey&lt
 class AllClients(generics.GenericAPIView):
     def get(self, req):
         api_key = req.query_params.get("apiKey")
         if api_key != os.environ["CONEXT_KEY"]:
             return Response({"message": "Bad Request to server", "error": True}, 401)
-        res = all_clients()
+        olt = req.query_params.get("olt")
+        res = all_clients(olt)
         if res["error"]:
             return Response(res, 202)
         return Response(res, 200)
