@@ -2,11 +2,11 @@ from mon.helpers.request import db_request
 from mon.helpers.definitions import endpoints
 
 
-def summary_data():
+def summary_data(olt):
     clients = db_request(
-        endpoints["get_clients"], {"lookup_type": "VT", "lookup_value": None}
+        endpoints["get_clients"], {"lookup_type": "VT", "lookup_value": {"olt":olt}}
     )
-    clients_alarms = len(db_request(endpoints["get_alarms"], {})["data"])
+    clients_alarms = len(db_request(endpoints["get_alarms"], {"lookup_type": "CA", "lookup_value": {"olt":olt}})["data"])
 
     def clients_state_qty(state):
         return len([item for item in clients["data"] if item["state"] == state])

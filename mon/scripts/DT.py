@@ -2,15 +2,12 @@ from mon.helpers.request import db_request
 from mon.helpers.definitions import endpoints
 
 
-def deactivates_data():
+def deactivates_data(olt):
     clients = db_request(
-        endpoints["get_clients"], {"lookup_type": "VT", "lookup_value": None}
+        endpoints["get_clients"], {"lookup_type": "DT", "lookup_value": {"olt":olt}}
     )["data"]
-
-    clients_deactivated = [item for item in clients if item["state"] == "deactivated"]
-
     return {
         "error": False,
         "message": "success",
-        "data": clients_deactivated,
+        "data": clients,
     }

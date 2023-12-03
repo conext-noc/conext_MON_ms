@@ -7,10 +7,10 @@ from pprint import pprint
 
 def port_data(fsp, olt):
     clients_db = db_request(
-        endpoints["get_clients"], {"lookup_type": "VP", "lookup_value": fsp}
+        endpoints["get_clients"], {"lookup_type": "VP", "lookup_value": {"fsp":fsp, "olt": olt}}
     )["data"]
     clients_db = [item for item in clients_db if item["olt"] == int(olt)]
-    alarms = db_request(endpoints["get_alarms"], {})["data"]
+    alarms = db_request(endpoints["get_alarms"], {"lookup_type": "VT", "lookup_value": {"olt":olt}})["data"]
     ports = available_ports(olt)
 
     if not any(fsp in item["fsp"] for item in ports):
